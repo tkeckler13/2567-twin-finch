@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	margin: 0 auto;
+}
+
 .wrapper {
 	max-width: 800px;
 	margin: 0 auto 0 auto;
@@ -16,6 +20,14 @@
 
 .column-3-12 {
   width: 25%;
+}
+
+.column-4-12 {
+  width: 33.33%;
+}
+
+.column-5-12 {
+  width: 41.66%;
 }
 
 .column-6-12 {
@@ -57,19 +69,39 @@ header {
   	z-index:1;
 }
 
-body {
-	margin: 0 auto;
-}
-
-.side-header {
-	
+.page-links {
+	line-height: 50px;
+	margin-right: 50px;
+	text-align: right;
 }
 
 .logo {
 	margin-left: auto;
 	margin-right: auto;
-	align-content:center;
 	margin-top: -30px;
+	margin-right: -40px;
+	margin-left: 10px;
+}
+
+#about {
+	height: 650px;
+}
+
+.r-r {
+	float: right;
+}
+
+#roasts {
+	height: 650px;
+}
+
+#news-feed {
+	height: 1200px;
+}
+
+.icon-row {
+	padding-top: 125px;
+	padding-bottom: 125px;
 }
 
 .column-roasts {
@@ -96,4 +128,10 @@ body {
 
 .specs {
 	line-height: 25px;
+}
+
+.column-footer {
+	width: 30%;
+	float: left;
+	padding-right: 20px;
 }
