@@ -1,3 +1,99 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto 0 auto;
+}
+
+.clearfix {
+  clear:both;
+}
+
+.column-2-12 {
+  width: 16.66%;
+}
+
+.column-3-12 {
+  width: 25%;
+}
+
+.column-6-12 {
+  width: 50%;
+}
+
+.column-9-12 {
+  width: 75%;
+}
+
+.offset-2-12 {
+	margin-left: 16.66%;
+}
+
+.right {
+  float:right;
+}
+
+.left {
+  float:left
+}
+
+.centered {
+  float: none;
+  margin: 0 auto;
+}
+
+#navigation {
+	position: fixed;
+}
+
+header {
+	overflow:auto;
+  	background:black;
+  	position:fixed;
+	height: 100%;
+  	margin-left: auto;
+	margin-right: auto;
+  	z-index:1;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.side-header {
+	
+}
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	align-content:center;
+	margin-top: -30px;
+}
+
+.column-roasts {
+	width: 20%;
+	float: left;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	padding:0 12.5px 0 12.5px;
+}
+
+.column-specs {
+	width: 20%;
+	float: left;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	padding:0 12.5px 0 12.5px;
+}
+
+.specs {
+	line-height: 25px;
+}
