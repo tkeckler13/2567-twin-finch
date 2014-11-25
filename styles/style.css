@@ -83,6 +83,10 @@ header {
 	margin-left: 10px;
 }
 
+#home img {
+	width: 100%;
+}
+
 #about {
 	height: 650px;
 }
