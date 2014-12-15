@@ -157,7 +157,7 @@ header {
 
 .roast-packages {
 	float: left;
-	width: 100;
+	width: 100%;
 }
 
 .roast-package {
@@ -229,7 +229,7 @@ header {
 	background-color:white;
 }
 
-.column-roasts a: hover {
+.column-roasts a:hover {
 	background-color: white;
 	opacity: 1;
 	transition: all .2s ease-in-out;
@@ -599,10 +599,7 @@ header {
 	-moz-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
   }
-  
-  .block-media a: hover img {
-	  opacity: none;
-  }
+ 
   
   .media-icon img{
 	  padding-left: 270px;
