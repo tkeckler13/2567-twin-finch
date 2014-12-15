@@ -118,8 +118,9 @@ header {
 	width: 100%;
 }
 
-
-  
+.hidden-desktop {
+	display:none;	
+}
 
 #about {
 	overflow: auto;
